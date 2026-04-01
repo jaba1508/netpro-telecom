@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Servicios profesionales de telecomunicaciones: soporte CCNA Cisco, Firewall Fortinet, WiFi empresarial, GPON, ONT y fibra óptica. Conectividad confiable para tu empresa." />
+    <meta name="keywords"
+        content="telecomunicaciones, CCNA Cisco, Fortinet firewall, WiFi empresarial, GPON, ONT, fibra óptica, redes, soporte técnico" />
+    <meta property="og:title" content="NetPro Telecomunicaciones — Conectividad &amp; Seguridad" />
+    <meta property="og:description"
+        content="Soporte CCNA Cisco, Fortinet, WiFi, GPON/ONT y fibra óptica para empresas y hogares." />
+    <meta property="og:type" content="website" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE='; img-src 'self' data:; connect-src 'self' https://script.google.com https://script.googleusercontent.com;" />
+    <title>NetPro Telecomunicaciones — Conectividad &amp; Seguridad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Schema markup para servicios locales -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "NetPro Telecomunicaciones",
+    "description": "Servicios profesionales de telecomunicaciones: CCNA Cisco, Fortinet, WiFi, GPON, ONT.",
+    "serviceType": ["Telecomunicaciones", "Redes", "Seguridad Informática"],
+    "areaServed": "Costa Rica"
+  }
+  </script>
+</head>
+
+<body>
+
+    <!-- ======================== NAVBAR ======================== -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar__inner">
+            <a href="#inicio" class="navbar__logo" aria-label="NetPro inicio">
+                <span class="logo-icon">&#9649;</span>
+                <span class="logo-text">Net<strong>Pro</strong></span>
+            </a>
+            <nav aria-label="Navegación principal">
+                <ul class="navbar__links" id="navLinks">
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contacto" class="btn btn--outline btn--sm">Cotizar</a></li>
+                </ul>
+            </nav>
+            <button class="navbar__burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ======================== HERO ======================== -->
+        <section class="hero" id="inicio" aria-labelledby="heroTitle">
+            <div class="hero__bg" aria-hidden="true"></div>
+            <div class="container hero__content">
+                <span class="badge">Conectividad Profesional</span>
+                <h1 id="heroTitle">Redes que impulsan<br /><span class="highlight">tu negocio</span></h1>
+                <p class="hero__sub">Soporte técnico certificado en Cisco, Fortinet, GPON y WiFi
+                    empresarial.<br />Soluciones de telecomunicaciones a medida para empresas y hogares.</p>
+                <div class="hero__actions">
+                    <a href="#contacto" class="btn btn--primary btn--lg">Solicitar cotización</a>
+                    <a href="#servicios" class="btn btn--ghost btn--lg">Ver servicios</a>
+                </div>
+                <div class="hero__stats" aria-label="Estadísticas">
+                    <div class="stat"><strong>+500</strong><span>Clientes activos</span></div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat"><strong>99.9%</strong><span>Uptime garantizado</span></div>
+                    <div class="stat-divider" aria-hidden="true"></div>
+                    <div class="stat"><strong>24/7</strong><span>Soporte técnico</span></div>
+                </div>
+            </div>
+            <div class="hero__scroll" aria-hidden="true">
+                <span>&#8595;</span>
+            </div>
+        </section>
+
+        <!-- ======================== SERVICIOS ======================== -->
+        <section class="section services" id="servicios" aria-labelledby="servicesTitle">
+            <div class="container">
+                <div class="section__header">
+                    <span class="badge badge--accent">Nuestros Servicios</span>
+                    <h2 id="servicesTitle">Soluciones completas en telecomunicaciones</h2>
+                    <p>Desde la infraestructura de red hasta la seguridad perimetral, cubrimos cada capa de tu
+                        conectividad.</p>
+                </div>
+
+                <div class="services__grid">
+
+                    <article class="service-card" tabindex="0">
+                        <div class="service-card__icon service-card__icon--blue" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <rect x="2" y="3" width="20" height="14" rx="2" />
+                                <polyline points="8 21 12 17 16 21" />
+                            </svg>
+                        </div>
+                        <h3>CCNA / Cisco</h3>
+                        <p>Diseño, configuración y soporte de redes Cisco. VLANs, routing dinámico (OSPF, EIGRP, BGP),
+                            QoS, VPN site-to-site y troubleshooting avanzado.</p>
+                        <ul class="service-card__features">
+                            <li>Configuración de switches y routers</li>
+                            <li>Segmentación por VLANs</li>
+                            <li>Protocolos de enrutamiento</li>
+                            <li>Monitoreo y diagnóstico</li>
+                        </ul>
+                        <a href="#contacto" class="service-card__link">Cotizar servicio &rarr;</a>
+                    </article>
+
+                    <article class="service-card" tabindex="0">
+                        <div class="service-card__icon service-card__icon--red" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3>Firewall Fortinet</h3>
+                        <p>Implementación y gestión de FortiGate para protección perimetral, filtrado web, IPS/IDS, VPN
+                            SSL/IPSec y segmentación de red corporativa.</p>
+                        <ul class="service-card__features">
+                            <li>Políticas de seguridad</li>
+                            <li>VPN SSL e IPSec</li>
+                            <li>UTM / Inspección profunda</li>
+                            <li>Gestión centralizada FortiManager</li>
+                        </ul>
+                        <a href="#contacto" class="service-card__link">Cotizar servicio &rarr;</a>
+                    </article>
+
+                    <article class="service-card" tabindex="0">
+                        <div class="service-card__icon service-card__icon--green" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path d="M5 12.55a11 11 0 0 1 14.08 0" />
+                                <path d="M1.42 9a16 16 0 0 1 21.16 0" />
+                                <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
+                                <circle cx="12" cy="20" r="1" />
+                            </svg>
+                        </div>
+                        <h3>WiFi Empresarial</h3>
+                        <p>Diseño de cobertura, instalación de APs y configuración de controladores inalámbricos. WiFi 6
+                            (802.11ax), roaming entre pisos y seguridad WPA3.</p>
+                        <ul class="service-card__features">
+                            <li>Survey de radiofrecuencia</li>
+                            <li>Controladores WiFi centralizados</li>
+                            <li>Redes segmentadas (corp./invitados)</li>
+                            <li>WiFi 6 / alta densidad</li>
+                        </ul>
+                        <a href="#contacto" class="service-card__link">Cotizar servicio &rarr;</a>
+                    </article>
+
+                    <article class="service-card" tabindex="0">
+                        <div class="service-card__icon service-card__icon--purple" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <line x1="12" y1="2" x2="12" y2="22" />
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                            </svg>
+                        </div>
+                        <h3>GPON / Fibra Óptica</h3>
+                        <p>Despliegue de redes pasivas de fibra óptica GPON. Instalación de OLT, splitters ópticos,
+                            tendido de fibra y puesta en marcha de la red de distribución óptica.</p>
+                        <ul class="service-card__features">
+                            <li>Diseño de ODN (red óptica)</li>
+                            <li>Instalación y fusión de fibra</li>
+                            <li>Configuración de OLT / ONU</li>
+                            <li>Certificación OTDR</li>
+                        </ul>
+                        <a href="#contacto" class="service-card__link">Cotizar servicio &rarr;</a>
+                    </article>
+
+                    <article class="service-card" tabindex="0">
+                        <div class="service-card__icon service-card__icon--orange" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <rect x="2" y="7" width="20" height="14" rx="2" />
+                                <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                                <line x1="12" y1="12" x2="12" y2="16" />
+                                <line x1="10" y1="14" x2="14" y2="14" />
+                            </svg>
+                        </div>
+                        <h3>ONT / Última Milla</h3>
+                        <p>Instalación y configuración de terminales ópticos (ONT/ONU) en modalidad bridge o router.
+                            Servicios triple-play: datos, voz VoIP y televisión IPTV.</p>
+                        <ul class="service-card__features">
+                            <li>Homologación con operador</li>
+                            <li>Configuración PPPoE / IPoE</li>
+                            <li>Triple-play: datos, voz, TV</li>
+                            <li>Soporte post-instalación</li>
+                        </ul>
+                        <a href="#contacto" class="service-card__link">Cotizar servicio &rarr;</a>
+                    </article>
+
+                    <article class="service-card service-card--cta" tabindex="0">
+                        <h3>¿Otro requerimiento?</h3>
+                        <p>Tenemos ingenieros certificados para proyectos a medida. Cuéntanos tu necesidad y diseñamos
+                            la solución.</p>
+                        <a href="#contacto" class="btn btn--primary">Hablar con un ingeniero</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== POR QUÉ NOSOTROS ======================== -->
+        <section class="section why-us" id="nosotros" aria-labelledby="whyTitle">
+            <div class="container">
+                <div class="section__header">
+                    <span class="badge badge--accent">¿Por qué NetPro?</span>
+                    <h2 id="whyTitle">Experiencia técnica certificada</h2>
+                </div>
+                <div class="why-us__grid">
+                    <div class="why-card">
+                        <div class="why-card__num" aria-hidden="true">01</div>
+                        <h3>Certificaciones acreditadas</h3>
+                        <p>Equipo con certificaciones CCNA, NSE (Fortinet) y especializaciones en GPON. Sin
+                            intermediarios, solo técnicos certificados.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card__num" aria-hidden="true">02</div>
+                        <h3>Respuesta rápida garantizada</h3>
+                        <p>Acuerdos de nivel de servicio (SLA) con tiempo de respuesta menor a 4 horas para incidencias
+                            críticas.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card__num" aria-hidden="true">03</div>
+                        <h3>Soluciones escalables</h3>
+                        <p>Diseñamos pensando en el crecimiento: tu red de hoy puede escalar mañana sin re-arquitectura
+                            costosa.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card__num" aria-hidden="true">04</div>
+                        <h3>Seguridad de extremo a extremo</h3>
+                        <p>Cada proyecto incluye revisión de seguridad: hardening de equipos, segmentación de red y
+                            políticas de acceso mínimo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== PARTNERS ======================== -->
+        <div class="partners" aria-label="Tecnologías certificadas">
+            <div class="container">
+                <p class="partners__label">Certificados &amp; tecnologías que implementamos</p>
+                <div class="partners__list">
+                    <span class="partner-badge">Cisco CCNA</span>
+                    <span class="partner-badge">Fortinet NSE</span>
+                    <span class="partner-badge">WiFi 6 / 802.11ax</span>
+                    <span class="partner-badge">GPON ITU-T G.984</span>
+                    <span class="partner-badge">FortiGate UTM</span>
+                    <span class="partner-badge">Cisco Catalyst</span>
+                    <span class="partner-badge">Triple-play IPTV</span>
+                </div>
+            </div>
+        </div>
+        <!-- ======================== PLANES ======================== -->
+        <section class="section plans" id="planes" aria-labelledby="plansTitle">
+            <div class="container">
+                <div class="section__header">
+                    <span class="badge badge--accent">Planes</span>
+                    <h2 id="plansTitle">Cobertura para cada necesidad</h2>
+                    <p>Elige el plan que se ajusta a tu empresa. Todos incluyen soporte técnico y garantía de equipos.
+                    </p>
+                </div>
+                <div class="plans__grid">
+
+                    <div class="plan-card">
+                        <div class="plan-card__header">
+                            <h3>Básico</h3>
+                            <p>Pymes y oficinas pequeñas</p>
+                        </div>
+                        <div class="plan-card__body">
+                            <ul class="plan-card__list">
+                                <li>&#10003; Configuración de red LAN/WiFi</li>
+                                <li>&#10003; 1 switch o router Cisco</li>
+                                <li>&#10003; Soporte remoto (horario comercial)</li>
+                                <li>&#10003; Informe de red entregado</li>
+                                <li class="disabled">&#10007; Firewall Fortinet</li>
+                                <li class="disabled">&#10007; GPON / Fibra</li>
+                            </ul>
+                        </div>
+                        <div class="plan-card__footer">
+                            <a href="#contacto" class="btn btn--outline btn--block">Cotizar</a>
+                        </div>
+                    </div>
+
+                    <div class="plan-card plan-card--featured">
+                        <span class="plan-badge">Más popular</span>
+                        <div class="plan-card__header">
+                            <h3>Empresarial</h3>
+                            <p>Empresas medianas con múltiples sedes</p>
+                        </div>
+                        <div class="plan-card__body">
+                            <ul class="plan-card__list">
+                                <li>&#10003; Todo lo del plan Básico</li>
+                                <li>&#10003; Firewall Fortinet (FortiGate)</li>
+                                <li>&#10003; VLANs y segmentación</li>
+                                <li>&#10003; WiFi empresarial con controlador</li>
+                                <li>&#10003; VPN site-to-site</li>
+                                <li>&#10003; Soporte 24/7 (SLA 4h)</li>
+                            </ul>
+                        </div>
+                        <div class="plan-card__footer">
+                            <a href="#contacto" class="btn btn--primary btn--block">Cotizar</a>
+                        </div>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-card__header">
+                            <h3>ISP / GPON</h3>
+                            <p>Operadoras e ISPs regionales</p>
+                        </div>
+                        <div class="plan-card__body">
+                            <ul class="plan-card__list">
+                                <li>&#10003; Despliegue GPON completo</li>
+                                <li>&#10003; OLT, splitters, ODN</li>
+                                <li>&#10003; Instalación de ONTs masiva</li>
+                                <li>&#10003; Triple-play (datos/voz/TV)</li>
+                                <li>&#10003; Certificación OTDR incluida</li>
+                                <li>&#10003; Capacitación al personal</li>
+                            </ul>
+                        </div>
+                        <div class="plan-card__footer">
+                            <a href="#contacto" class="btn btn--outline btn--block">Cotizar</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== FAQ ======================== -->
+        <section class="section faq" id="faq" aria-labelledby="faqTitle">
+            <div class="container faq__inner">
+                <div class="section__header">
+                    <span class="badge badge--accent">Preguntas frecuentes</span>
+                    <h2 id="faqTitle">Resolvemos tus dudas técnicas</h2>
+                </div>
+
+                <div class="faq__list">
+
+                    <details class="faq__item">
+                        <summary>¿Qué diferencia hay entre un ONU y una ONT?</summary>
+                        <p>Aunque el término se usa indistintamente, técnicamente una <strong>ONT</strong> (Optical
+                            Network Terminal) es la unidad terminal instalada en el cliente final en redes GPON,
+                            mientras que <strong>ONU</strong> (Optical Network Unit) es un término más genérico que
+                            aplica a distintos puntos de la red pasiva óptica. En la práctica, ambos se refieren al
+                            equipo que convierte la señal óptica del ISP en señal eléctrica (Ethernet, WiFi, telefonía)
+                            para uso del cliente.</p>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>¿Necesito tener equipo Cisco para que configuren la red?</summary>
+                        <p>No necesariamente. Realizamos diagnósticos sobre la infraestructura existente y recomendamos
+                            si se debe mantener, ampliar o reemplazar. Sin embargo, para proyectos nuevos recomendamos
+                            equipos Cisco Catalyst o Meraki por su confiabilidad, soporte y compatibilidad con
+                            estándares CCNA.</p>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>¿Qué es UTM en un firewall Fortinet?</summary>
+                        <p><strong>UTM</strong> (Unified Threat Management) es un conjunto de funciones de seguridad
+                            integradas en el FortiGate: antivirus de gateway, filtrado web por categorías, IPS/IDS
+                            (detección y prevención de intrusiones), control de aplicaciones y antispam. Permite
+                            protección multicapa sin necesitar equipos separados.</p>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>¿Cuántos usuarios soporta una red WiFi empresarial?</summary>
+                        <p>Depende del estándar y la arquitectura. Con WiFi 6 (802.11ax) y una arquitectura con
+                            controlador centralizado, un AP de gama media puede gestionar cómodamente 50-80 usuarios
+                            concurrentes con buena calidad. Para ambientes de alta densidad (auditorios, hoteles)
+                            diseñamos celdas pequeñas con planificación de canales y potencia para minimizar
+                            interferencia.</p>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>¿Qué es GPON y por qué es mejor que el cobre tradicional?</summary>
+                        <p><strong>GPON</strong> (Gigabit Passive Optical Network) transmite datos mediante pulsos de
+                            luz por fibra óptica en lugar de señales eléctricas por cobre. Sus ventajas: mayor ancho de
+                            banda (hasta 2.5 Gbps downstream), inmunidad a interferencias electromagnéticas, menor
+                            atenuación a larga distancia y menor coste de mantenimiento al no requerir alimentación en
+                            los nodos intermedios (splitters pasivos).</p>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary>¿Ofrecen mantenimiento preventivo de redes?</summary>
+                        <p>Sí. Contamos con planes de mantenimiento preventivo trimestral y semestral que incluyen:
+                            auditoría de configuraciones, actualización de firmware de equipos, revisión de logs de
+                            seguridad, pruebas de rendimiento y entrega de informe técnico. El mantenimiento preventivo
+                            reduce incidencias críticas en más del 70%.</p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== CONTACTO / COTIZACIÓN ======================== -->
+        <section class="section contact" id="contacto" aria-labelledby="contactTitle">
+            <div class="container contact__inner">
+                <div class="contact__info">
+                    <span class="badge">Contacto</span>
+                    <h2 id="contactTitle">Solicita tu cotización personalizada</h2>
+                    <p>Cuéntanos tu necesidad y un ingeniero certificado te contactará en menos de 2 horas hábiles.</p>
+                    <ul class="contact__data">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.18 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91A16 16 0 0 0 15.1 15.9l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 23 17z" />
+                            </svg>
+                            <span>+52 5664312618</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                            <span>NetProTech&#64;gmail&#46;com</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <span>Zapopán, Jalisco</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact__form" id="quoteForm" novalidate aria-label="Formulario de cotización">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                            <input type="text" id="nombre" name="nombre" autocomplete="name" required minlength="2"
+                                maxlength="80" placeholder="Juan Pérez" />
+                            <span class="form-error" id="nombreError" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa / Organización</label>
+                            <input type="text" id="empresa" name="empresa" autocomplete="organization" maxlength="100"
+                                placeholder="Mi Empresa S.A." />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">Teléfono <span aria-hidden="true">*</span></label>
+                            <input type="tel" id="telefono" name="telefono" autocomplete="tel" required
+                                pattern="[\d\s\+\-\(\)]{7,20}" maxlength="20" placeholder="+506 0000-0000" />
+                            <span class="form-error" id="telefonoError" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico <span aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" autocomplete="email" required maxlength="100"
+                                placeholder="correo@empresa.com" />
+                            <span class="form-error" id="emailError" role="alert"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="servicio">Servicio de interés <span aria-hidden="true">*</span></label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="">Selecciona un servicio...</option>
+                            <option value="ccna">CCNA / Cisco (redes LAN/WAN)</option>
+                            <option value="fortinet">Firewall Fortinet</option>
+                            <option value="wifi">WiFi Empresarial</option>
+                            <option value="gpon">GPON / Fibra Óptica</option>
+                            <option value="ont">ONT / Última milla</option>
+                            <option value="multiple">Proyecto integral (varios servicios)</option>
+                            <option value="otro">Otro requerimiento</option>
+                        </select>
+                        <span class="form-error" id="servicioError" role="alert"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Describe tu necesidad</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" maxlength="1000"
+                            placeholder="Ej: Necesito configurar 3 switches Cisco con VLANs para 50 usuarios en dos pisos..."></textarea>
+                        <span class="form-hint">Máximo 1000 caracteres</span>
+                    </div>
+                    <div class="form-group form-group--check">
+                        <input type="checkbox" id="privacidad" name="privacidad" required />
+                        <label for="privacidad">Acepto la <a href="#" rel="noopener">política de privacidad</a> y el uso
+                            de mis datos para contactarme. <span aria-hidden="true">*</span></label>
+                        <span class="form-error" id="privacidadError" role="alert"></span>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--block btn--lg" id="submitBtn">
+                        Enviar solicitud
+                    </button>
+                    <div id="formStatus" role="status" aria-live="polite" class="form-status"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ======================== FOOTER ======================== -->
+    <footer class="footer" aria-label="Pie de página">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="logo-icon" aria-hidden="true">&#9649;</span>
+                <span class="logo-text">Net<strong>Pro</strong></span>
+                <p>Conectividad profesional y seguridad de redes para empresas y hogares.</p>
+            </div>
+            <nav class="footer__nav" aria-label="Mapa del sitio">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#servicios">CCNA / Cisco</a></li>
+                    <li><a href="#servicios">Firewall Fortinet</a></li>
+                    <li><a href="#servicios">WiFi Empresarial</a></li>
+                    <li><a href="#servicios">GPON / Fibra</a></li>
+                    <li><a href="#servicios">ONT</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__nav" aria-label="Compañía">
+                <h3>Compañía</h3>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#faq">Preguntas frecuentes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="footer__legal">
+                <p>&copy; 2026 NetPro Telecomunicaciones. Todos los derechos reservados.</p>
+                <p><a href="#">Política de privacidad</a> &middot; <a href="#">Términos de servicio</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp flotante -->
+    <a href="https://wa.me/525664312618?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20telecomunicaciones"
+        class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.532 5.845L.057 23.429a.75.75 0 0 0 .927.926l5.638-1.474A11.953 11.953 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.93 0-3.744-.518-5.306-1.422l-.379-.225-3.926 1.027 1.05-3.837-.247-.393A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+        </svg>
+        <span>WhatsApp</span>
+    </a>
+
+    <!-- Botón volver arriba -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver al inicio" hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15" />
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
